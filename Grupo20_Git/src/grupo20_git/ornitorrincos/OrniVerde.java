@@ -24,20 +24,17 @@ public class OrniVerde extends Castor implements MamaPata {
     public String getNombre(){
         return nombre;
     }
-    
-    
-    @Override
+     @Override
     public void tocarOrgano() {
         Scanner scanner= new Scanner(System.in);
-        System.out.println("Presiona la tecla Enter/Intro para tocar el organo.......");
+        System.out.println("Presiona la tecla Enter/Intro para tocar el organo..");
         scanner.nextLine();
         System.out.println("Do-Re-Mi-Fa-Sol-La-Le-Li-Lo-Lu");
     }
-    
-    public void tocarGuitorgan(){
+        public void tocarGuitorgan(){
         System.out.println(nombre+" Tocando el Guitargan");
         tocarGuitarra();
         tocarOrgano();
-        System.out.println("Tocada Finalizada digo, Cuac cuaac....!");
+        System.out.println("Tocada Finalizada digo, Cuac cuaac!");
     }
 }
