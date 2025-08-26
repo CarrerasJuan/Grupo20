@@ -24,6 +24,7 @@ public class OrniVerde extends Castor implements MamaPata {
     public String getNombre(){
         return nombre;
     }
+    
      @Override
     public void tocarOrgano() {
         Scanner scanner= new Scanner(System.in);
